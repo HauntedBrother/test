@@ -10,7 +10,7 @@ Each mission is a challenge that tests your ability to design, think, and automa
 Crack all three, and your agent earns elite status.  
 
 
-##🟥 Challenge 1: Red Gate — Intrusion Detector
+## 🟥 Challenge 1: Red Gate — Intrusion Detector  
 “If you hesitate, the hackers strike first.”
 
 ### Mission Objective:  
