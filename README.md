@@ -10,18 +10,22 @@ Each mission is a challenge that tests your ability to design, think, and automa
 Crack all three, and your agent earns elite status.  
 
 
-## Challenge 1: Red Gate — Intrusion Detector
+##🟥 Challenge 1: Red Gate — Intrusion Detector
 “If you hesitate, the hackers strike first.”
 
-**Mission:** Find and lock brute-force attackers.
+### Mission Objective:  
+Detect and lock accounts showing brute-force attack patterns.
 
-### What You Get
+### Your Intel
 
 - **Data File:** `login_attempts.json` (list of login events with user_id, success status, timestamp)
-- **Endpoint:** `http://[provided-url]/red-gate/submit`
+- **Submission Endpoint:** `http://[provided-url]/red-gate/submit`
 
-### What You Do
+### Your Strategy  
+Find users with 3+ consecutive failed logins.
+Explain your reasoning, and let your AI agent make the judgment call.  
 
+### Build Sequence  
 **Step 1: Understand the data**
 - Open `login_attempts.json`
 - You'll see login attempts like: `{ "user_id": "alice", "success": true }` and `{ "user_id": "bob", "success": false }`
