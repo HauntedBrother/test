@@ -53,16 +53,21 @@ Explain your reasoning, and let your AI agent make the judgment call.
 
 ---
 
-## Challenge 2: Blue Core — Server Overload
+## 🟦 Challenge 2: Blue Core — Server Overload  
+“When systems fall, only logic can restore order.”
 
-**Mission:** Detect critical servers and restart them.
+### Mission Objective:  
+Pinpoint servers in crisis and issue restart commands before meltdown.
 
-### What You Get
+### Your Intel
 
 - **Data File:** `server_stats.json` (list of servers with CPU %, memory %, requests/sec)
-- **Endpoint:** `http://[provided-url]/blue-core/submit`
+- **Submission Endpoint:** `http://[provided-url]/blue-core/submit`
 
-### What You Do
+### Your Strategy  
+Let your LLM brain decide which servers to restart and justify every decision.
+
+### Build Sequence  
 
 **Step 1: Understand the data**
 - Open `server_stats.json`
@@ -96,16 +101,21 @@ Explain your reasoning, and let your AI agent make the judgment call.
 
 ---
 
-## Challenge 3: Green Signal — Phishing Detector
+## 🟩 Challenge 3: Green Signal — Phishing Detector  
+“Every email tells a story. Your AI must learn to spot the lies.”  
 
-**Mission:** Classify emails as phishing or legitimate and flag the phishing ones.
 
-### What You Get
+**Mission Objective:** Classify emails as PHISHING or LEGITIMATE — and defend your digital fortress.
+
+### Your Intel
 
 - **Data File:** `emails.json` (list of email objects with sender, subject, body)
-- **Endpoint:** `http://[provided-url]/green-signal/submit`
+- **Submission Endpoint:** `http://[provided-url]/green-signal/submit`
 
-### What You Do
+### Your Strategy  
+Train your AI to think like a cybersecurity analyst and justify every call.
+
+### Build Sequence  
 
 **Step 1: Understand the data**
 - Open `emails.json`
@@ -178,14 +188,14 @@ SUCCESS: Check response for FLAG
 
 ## Critical Rules 
 
-**Do This:**
+**✅ DO’s:**
 - Test each node as you build it (click "Execute step")
 - Keep LLM prompts clear and instruct it to output ONLY clean JSON
 - Include reasoning in every submission (that's part of the scoring)
 - Use exact field names from the challenge description
 - Check the HTTP node's Request tab to verify the payload before final submission
 
-**Don't Do This:**
+**❌ DON’Ts:**
 - Don't hardcode answers (e.g., manually typing user_id names)
 - Don't submit without reasoning
 - Don't ignore the JSON structure requirements
@@ -219,16 +229,20 @@ SUCCESS: Check response for FLAG
 
 ## Final Tips
 
-1. **Start with Red Gate** if you're new—it's the simplest (no looping needed).
-2. **Reuse your workflow pattern.** All three challenges follow the same steps; just swap the data and LLM prompt.
-3. **Debug node-by-node.** Don't wire everything and hit "Execute"—test each node individually.
-4. **Pay attention to JSON structure.** The validator will reject mismatched field names or types.
-5. **Reason matters.** A correct guess with no explanation won't win you points—your agent must explain its logic.
+1. **Start Easy** if you're new, begin with Red Gate - it's the simplest (no looping needed).
+2. **Reuse your Power** All three challenges follow the same steps; just swap the data and LLM prompt.
+3. **Debug nlike a Pro** Don't wire everything and hit "Execute"—test each node individually.
+4. **Structure is Everything** The validator will reject mismatched field names or types.
+5. **Explain like a Human** A correct guess with no explanation won't win you points—your agent must explain its logic.
 
 ---
 
-## Good Luck! 
+## Good Luck!   
 
-You've got this. Build smart, test often, and let your agent do the thinking!
+You’re not just coding — you’re training an agent to think.  
+The stronger its logic, the louder your victory.  
+
+Now step up, deploy your AI, and capture the flags.  
+The LYNQ Arena awaits. ⚔️  
 
 ---
