@@ -1,13 +1,13 @@
 # ⚔️ LYNQ: Agentic AI — Capture the Flag
 
-Welcome, Agent.
-You’re entering LYNQ, the Agentic AI battlefield where human ingenuity meets autonomous intelligence.
-Your weapon: n8n.
-Your ally: Flowise / Langflow — your agent’s neural brain.
-Your goal: Build smart, explain smarter, and claim the FLAG.
+Welcome, Agent.  
+You’re entering LYNQ, the Agentic AI battlefield where human ingenuity meets autonomous intelligence.  
+Your weapon: n8n.  
+Your ally: Flowise / Langflow — your agent’s neural brain.  
+Your goal: Build smart, explain smarter, and claim the FLAG.  
 
-Each mission is a challenge that tests your ability to design, think, and automate.
-Crack all three, and your agent earns elite status.
+Each mission is a challenge that tests your ability to design, think, and automate.  
+Crack all three, and your agent earns elite status.  
 
 
 ## Challenge 1: Red Gate — Intrusion Detector
